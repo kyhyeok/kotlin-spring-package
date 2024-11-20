@@ -67,7 +67,7 @@ fun main() {
 //        .getOrNull()
 
     val result = runCatching { getStr() }
-        .recoverCatching { getStr() 
+        .recoverCatching { getStr()
             throw Exception("예외")
         }
         .getOrDefault("복구")
