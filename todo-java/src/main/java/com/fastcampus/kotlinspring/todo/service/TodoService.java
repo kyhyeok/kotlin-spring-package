@@ -1,8 +1,5 @@
 package com.fastcampus.kotlinspring.todo.service;
 
-import com.fastcampus.kotlinspring.todo.domain.Todo;
-import com.fastcampus.kotlinspring.todo.domain.TodoRepository;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import org.springframework.data.domain.Sort;
