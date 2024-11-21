@@ -3,7 +3,6 @@ package com.fastcampus.kotlinspring.todo.api
 import com.fastcampus.kotlinspring.todo.api.model.TodoListResponse
 import com.fastcampus.kotlinspring.todo.api.model.TodoRequest
 import com.fastcampus.kotlinspring.todo.api.model.TodoResponse
-import com.fastcampus.kotlinspring.todo.service.TodoService
 import org.springframework.http.ResponseEntity
 import org.springframework.http.ResponseEntity.noContent
 import org.springframework.http.ResponseEntity.ok
